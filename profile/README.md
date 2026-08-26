@@ -25,8 +25,6 @@
 
 ---
 
-## 我们在做什么
-
 我们是一个 **DeepSeek Harness 的非官方、非商业开源社区组织**，专注于把 Harness 做成更轻量、更顺手的原生桌面体验：
 
 - **零环境启动**：无需预装 Node.js、pnpm 或 Docker，安装后即可运行。
@@ -35,7 +33,7 @@
 - **插件生态**：通过插件扩展侧边栏、通知、终端检查和工作流能力。
 - **本地优先**：应用和 Harness 在本机运行，尽量保持数据与开发环境可控。
 
-## 精选项目
+## 项目
 
 | 项目 | 说明 |
 | --- | --- |
@@ -46,7 +44,7 @@
 | [deepseek-harness-pkg](https://github.com/dsh-tauri-desk/deepseek-harness-pkg) | 预打包 Harness 内核与发行资源 |
 | [dsh-tauri-rightclick](https://github.com/dsh-tauri-desk/dsh-tauri-rightclick) | 原生风格上下文菜单扩展 |
 
-## 开始使用
+## 使用
 
 前往 [Releases](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases) 下载对应平台的安装包。桌面版会负责准备运行环境并启动本地 Harness，首次运行需要网络下载运行时与内核资源。
 

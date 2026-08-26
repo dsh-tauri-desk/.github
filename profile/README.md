@@ -42,7 +42,7 @@
 | [dsh-tauri-ui](https://github.com/dsh-tauri-desk/dsh-tauri-ui) | 面向 Tauri 外壳的设置侧边栏与界面组件 |
 | [dsh-tauri-worktree](https://github.com/dsh-tauri-desk/dsh-tauri-worktree) | 为会话创建隔离 Git Worktree 的插件 |
 | [deepseek-harness-pkg](https://github.com/dsh-tauri-desk/deepseek-harness-pkg) | 预打包 Harness 内核与发行资源 |
-| [dsh-tauri-rightclick](https://github.com/dsh-tauri-desk/dsh-tauri-rightclick) | 原生风格上下文菜单扩展 |
+<!-- | [dsh-tauri-rightclick](https://github.com/dsh-tauri-desk/dsh-tauri-rightclick) | 原生风格上下文菜单扩展 | -->
 
 ## 使用
 

@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://github.com/dsh-tauri-desk/deepseek-harness-desktop">下载桌面版</a> ·
-  <a href="https://github.com/dsh-tauri-desk/deepseek-harness-desktop/blob/main/README.md">文档</a> ·
+  <a href="https://dshtauri.mintlify.site">文档</a> ·
   <a href="https://github.com/dsh-tauri-desk/deepseek-harness-desktop/issues">反馈问题</a>
 </p>
 

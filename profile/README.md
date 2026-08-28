@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases"><img src="https://img.shields.io/github/v/release/dsh-tauri-desk/deepseek-harness-desktop?style=flat-square&label=release&color=4D6BFE" alt="Release" /></a>
+  <img src="https://img.shields.io/github/stars/hairyf/deepseek-harness-desktop?style=flat-square&label=stars&color=4D6BFE" alt="Stars" />
   <a href="https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases"><img src="https://img.shields.io/github/downloads/dsh-tauri-desk/deepseek-harness-desktop/total?style=flat-square&label=downloads&color=4D6BFE" alt="Downloads" /></a>
   <a href="https://github.com/dsh-tauri-desk/deepseek-harness-desktop/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dsh-tauri-desk/deepseek-harness-desktop?style=flat-square&label=license" alt="License" /></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-black?style=flat-square" alt="Windows | macOS | Linux" />

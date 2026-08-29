@@ -26,28 +26,32 @@
 
 ---
 
-我们是一个 **DeepSeek Harness 的非官方、非商业开源社区组织**，专注于把 Harness 做成更轻量、更顺手的原生桌面体验：
+我们是一个 **DeepSeek Harness 的非官方、非商业开源社区组织**，专注于把 Harness 做成可验证、可维护的原生桌面体验：
 
-- **零环境启动**：无需预装 Node.js、pnpm 或 Docker，安装后即可运行。
-- **跨平台桌面应用**：基于 Tauri 2，支持 Windows、macOS 与 Linux。
-- **内核与档案管理**：在应用内管理 Harness 版本、配置档案和隔离环境。
-- **插件生态**：通过插件扩展侧边栏、通知、终端检查和工作流能力。
-- **本地优先**：应用和 Harness 在本机运行，尽量保持数据与开发环境可控。
+- **零环境启动**：桌面发行版无需用户预装 Node.js、pnpm 或 Docker；首次运行会准备本地运行时与 Harness 资源。
+- **跨平台桌面应用**：基于 Tauri 2，当前公开 `v0.9.2` Release 提供 Windows x64、macOS Intel、macOS Apple Silicon 和 Linux x64 产物。
+- **内核与 Profile 管理**：在应用内管理 Harness 内核、配置 Profile、工作区和桌面集成。
+- **第一方插件**：维护少量与桌面版本共同验证的插件，而不是默认捆绑大量社区插件。
+- **本地优先**：应用与 Harness 在本机运行；Harness 和插件具备本地代码执行能力，Profile 不是操作系统沙箱。
 
 ## 项目
 
 | 项目 | 说明 |
 | --- | --- |
 | [deepseek-harness-desktop](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | DeepSeek Harness 跨平台桌面发行版 |
+| [dsh-tauri-plugins](https://github.com/dsh-tauri-desk/dsh-tauri-plugins) | 桌面端第一方插件 monorepo |
 | [dsh-tauri](https://github.com/dsh-tauri-desk/dsh-tauri) | DSH 插件与 Tauri 2 外壳之间的通信桥接 |
 | [dsh-tauri-ui](https://github.com/dsh-tauri-desk/dsh-tauri-ui) | 面向 Tauri 外壳的设置侧边栏与界面组件 |
 | [dsh-tauri-worktree](https://github.com/dsh-tauri-desk/dsh-tauri-worktree) | 为会话创建隔离 Git Worktree 的插件 |
+| [dsh-tauri-panel](https://github.com/dsh-tauri-desk/dsh-tauri-panel) | 桌面侧栏、新会话入口与面板协议 |
+| [dsh-tauri-panel-extension](https://github.com/dsh-tauri-desk/dsh-tauri-panel-extension) | Skills 与 MCP 管理面板扩展 |
+| [dsh-tauri-session](https://github.com/dsh-tauri-desk/dsh-tauri-session) | 已归档聊天与工作区归档管理 |
+| [dsh-tauri-rightclick](https://github.com/dsh-tauri-desk/dsh-tauri-rightclick) | 会话、工作区、文本与链接的原生风格右键菜单 |
 | [deepseek-harness-pkg](https://github.com/dsh-tauri-desk/deepseek-harness-pkg) | 预打包 Harness 内核与发行资源 |
-<!-- | [dsh-tauri-rightclick](https://github.com/dsh-tauri-desk/dsh-tauri-rightclick) | 原生风格上下文菜单扩展 | -->
 
 ## 使用
 
-前往 [Releases](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases) 下载对应平台的安装包。桌面版会负责准备运行环境并启动本地 Harness，首次运行需要网络下载运行时与内核资源。
+前往 [Releases](https://github.com/dsh-tauri-desk/deepseek-harness-desktop/releases) 下载对应平台的安装包。当前公开版本为 `v0.9.2`，提供 Windows x64、macOS Intel、macOS Apple Silicon 和 Linux x64 资产。桌面版会负责准备运行环境并启动本地 Harness，首次运行需要网络下载运行时与内核资源。
 
 如果你使用 macOS，也可以通过 Homebrew 安装：
 

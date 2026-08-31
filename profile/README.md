@@ -40,13 +40,6 @@
 | --- | --- |
 | [deepseek-harness-desktop](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | DeepSeek Harness 跨平台桌面发行版 |
 | [dsh-tauri-plugins](https://github.com/dsh-tauri-desk/dsh-tauri-plugins) | 桌面端第一方插件 monorepo |
-| [dsh-tauri](https://github.com/dsh-tauri-desk/dsh-tauri) | DSH 插件与 Tauri 2 外壳之间的通信桥接 |
-| [dsh-tauri-ui](https://github.com/dsh-tauri-desk/dsh-tauri-ui) | 面向 Tauri 外壳的设置侧边栏与界面组件 |
-| [dsh-tauri-worktree](https://github.com/dsh-tauri-desk/dsh-tauri-worktree) | 为会话创建隔离 Git Worktree 的插件 |
-| [dsh-tauri-panel](https://github.com/dsh-tauri-desk/dsh-tauri-panel) | 桌面侧栏、新会话入口与面板协议 |
-| [dsh-tauri-panel-extension](https://github.com/dsh-tauri-desk/dsh-tauri-panel-extension) | Skills 与 MCP 管理面板扩展 |
-| [dsh-tauri-session](https://github.com/dsh-tauri-desk/dsh-tauri-session) | 已归档聊天与工作区归档管理 |
-| [dsh-tauri-rightclick](https://github.com/dsh-tauri-desk/dsh-tauri-rightclick) | 会话、工作区、文本与链接的原生风格右键菜单 |
 | [deepseek-harness-pkg](https://github.com/dsh-tauri-desk/deepseek-harness-pkg) | 预打包 Harness 内核与发行资源 |
 
 ## 使用
